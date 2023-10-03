@@ -1,0 +1,24 @@
+{
+    "server": {
+        "port": 8090
+    },
+    "socket":{
+        "port": 3050,
+        "basePath": "/fifcmsdb"
+    },
+    "cms":{
+        "baseUrl":"localhost"
+     },
+     "db":{
+        "url":"mongodb://localhost/fifcmsdb",
+        "psqlUrl" : {
+          "user": "postgres",
+          "host": "localhost",
+          "database": "fifdb",
+          "password": "admin",
+          "port": 5432
+        },
+       "schema" : "public",
+       "pgURL" : "postgresql://postgres:admin@localhost:5432/fifdb"
+     }
+}

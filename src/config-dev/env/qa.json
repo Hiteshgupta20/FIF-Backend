@@ -1,0 +1,25 @@
+{
+  "server": {
+      "port": 8090
+  },
+  "socket": {
+      "port": 3050,
+      "basePath": "/fifqacmsdb"
+  },
+  "context": "/cms",
+  "cms": {
+      "baseUrl": "http://fmctestsv.fifgroup.co.id/"
+  },
+  "db": {
+      "url": "mongodb://localhost:27017/fifqacmsdb",
+      "psqlUrl": {
+          "user": "fif",
+          "host": "10.17.162.20",
+          "database": "fifdb",
+          "password": "wecrTb6yR",
+          "port": 5432
+      },
+      "schema": "fifqa",
+      "pgURL": "postgresql://fif:wecrTb6yR@10.17.162.20:5432/fifdb"
+  }
+}
